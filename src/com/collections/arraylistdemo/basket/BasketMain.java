@@ -7,17 +7,20 @@ public class BasketMain
 {		
   public static int getHighestBasketQuantity(ArrayList<Basket> list) 
   {
-	  return list.stream().max((o1,o2)->o1.getQty()-o2.getQty()).get().getQty(); //comparator
+	  	  		//comparator				  //int return
+	  return list.stream().max((o1,o2)->o1.getQty()-o2.getQty()).get().getQty();
   }  
   
   public static int getLowestBasketQuantity(ArrayList<Basket> list)
-  {
-	  return list.stream().min((o1,o2)->o1.getQty()-o2.getQty()).get().getQty(); //comparator
+  {				
+	  			//comparator				  //int return
+	  return list.stream().min((o1,o2)->o1.getQty()-o2.getQty()).get().getQty(); 
   }
   
   public static ArrayList<Basket> rangeOfBaskets(ArrayList<Basket> list, int startingRange, int endingRange)
-  {	  
-	  return (ArrayList<Basket>) list.stream().filter(o->o.getQty()>=startingRange && o.getQty()<=endingRange).collect(Collectors.toList()); //filter predicates  
+  {	  	
+	            //typecast                     filter (predicate)
+	  return (ArrayList<Basket>) list.stream().filter(o->o.getQty()>=startingRange && o.getQty()<=endingRange).collect(Collectors.toList());   
   }
   
   public static int totalQtyOfAllBaskets(ArrayList<Basket> list)
@@ -26,7 +29,7 @@ public class BasketMain
   }
 	public static void main(String[] args)
 	{		
-		ArrayList<Basket> arrli = new ArrayList<>();
+		ArrayList<Basket> arrli = new ArrayList<>(); //ArrayList of Type Specificity Basket class is created
 		
 		arrli.add(new Basket(12345671,2));
 		arrli.add(new Basket(1221215,6));
