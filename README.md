@@ -7,7 +7,7 @@ There are 4 different Applications.
 ***NameList.java*** - Created ArrayList and populated them using arraylistvariable.add() and then called predefined methods from Collection interface on it.
 
 2)
-***Basket.java*** - Class with Private Data Members - generated Constructor, Getters & Setters, and toString
+***Basket.java*** - Class with Private Data Members - generated Constructor, Getters & Setters, and toString.
 ***BasketMain.java*** -Used Type Specific ArrayList<Basket> to only store Basket objects. Used STREAM() in methods and TypeCasted List to ArrayList. 
   
 3)  
