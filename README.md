@@ -8,6 +8,7 @@ There are 4 different Applications.
 
 2)
 ***Basket.java*** - Class with Private Data Members - generated Constructor, Getters & Setters, and toString.
+
 ***BasketMain.java*** -Used Type Specific ArrayList<Basket> to only store Basket objects. Used STREAM() in methods and TypeCasted List to ArrayList. 
   
 3)  
