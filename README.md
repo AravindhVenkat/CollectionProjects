@@ -9,16 +9,17 @@ There are 4 different Applications.
 2)
 ***Basket.java*** - Class with Private Data Members - generated Constructor, Getters & Setters, and toString.
 
-***BasketMain.java*** -Used Type Specific ArrayList<Basket> to only store Basket objects. Used STREAM() in methods and TypeCasted List to ArrayList. 
+***BasketMain.java*** -Used **Type Specific** ArrayList<Basket> to only store Basket objects. Used STREAM() in methods and **TypeCasted** List to ArrayList. 
   
 3)  
 ***Citizen.java & Address.java*** - Classes with Private Data Members - generated Constructor, Getters & Setters, and toString.
-***CitizenAddressApplication.java*** - Created HashMap<Long,Citizen> - <Key,Value> pairs - Key is Aadhar Number of Long type amd Value is of Citizen Objects
+  
+***CitizenAddressApplication.java*** - Created HashMap<Long,Citizen> - **<Key,Value> pairs** - Key is Aadhar Number of Long type amd Value is of Citizen Objects
                                  Populated the HashMap using hashmapvariable.put(key,value)
-                                 Used methods like hashmapvariable.keyset to get only KEYS
-                                                   hashmapvariable.values to get only VALUES to then perform necessary actions in the STREAM()
+                                 Used methods like **hashmapvariable.keyset** to get only **KEYS**
+                                                   **hashmapvariable.values** to get only **VALUES** to then perform necessary actions in the STREAM()
   
 4)
 ***Country.java*** - Class with Private Data Members - generated Constructor, Getters & Setters, and toString
-***Municipality.java*** - Main Class - Used Entry<String,Integer> (<K,V>) - Similar to HashMap but better used to work with Key & Value pairs combined.
- 
+  
+***Municipality.java*** - Main Class - Used **Entry<String,Integer>** <Keys,Values> - Similar to HashMap and better used to work with Key & Value pairs combined.
